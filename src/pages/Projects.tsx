@@ -5,6 +5,8 @@ import CarrerSearch from "../images/Carrer-search.jpg";
 import microImage from "../images/micro-image.jpg";
 import Hotel from "../images/Hotel.png";
 import LiquidX from "../images/LiquidX.jpg";
+import ChatImage from "../images/Chat.jpg";
+import Ecomm from "../images/Ecomm.jpg";
 import {
   FaReact,
   FaNodeJs,
@@ -97,7 +99,7 @@ const Projects: React.FC = () => {
       description:
         "Vendora is a modern e-commerce platform that connects sellers with customers, offering a seamless shopping experience. It empowers businesses to easily showcase and sell their products while ensuring a secure, user-friendly environment.",
       techUsed: "AWS, Docker, Kubernetes",
-      image: { url: "https://via.placeholder.com/150" },
+      image: { url: Ecomm },
     },
     {
       title: "Microservices-Driven Coding Platform ",
@@ -112,7 +114,7 @@ const Projects: React.FC = () => {
         "A real-time chat application built with Node.js, Express, and Socket.io, allowing users to communicate instantly through private and group chats. The app uses MongoDB for persistent message storage and supports features like user authentication, message history, and real-time notifications.",
       techUsed: "Node.js, Express, Socket.io, MongoDB",
       link: "https://chatapp.example.com",
-      image: { url: "https://via.placeholder.com/150" },
+      image: { url: ChatImage },
     },
 
     {

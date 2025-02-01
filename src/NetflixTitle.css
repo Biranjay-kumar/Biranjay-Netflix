@@ -36,3 +36,14 @@
     opacity: 0;
   }
 }
+
+.click-prompt {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}

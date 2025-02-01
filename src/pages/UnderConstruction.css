@@ -1,0 +1,49 @@
+.under-construction-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #141414; /* Dark background similar to Netflix */
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.construction-message h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #e50914; /* Netflix red color */
+  text-transform: uppercase;
+}
+
+.construction-message p {
+  font-size: 1.5rem;
+  color: #b3b3b3; /* Light grey text */
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.construction-animation {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.construction-icon {
+  margin: 0 15px;
+  font-size: 4rem;
+  animation: bounce 1s infinite alternate;
+  color: #e50914; /* Red color for the icons */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}

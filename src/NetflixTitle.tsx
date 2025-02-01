@@ -30,6 +30,11 @@ const NetflixTitle = () => {
         alt="Custom Logo" 
         className={`netflix-logo ${isClicked ? 'animate' : ''}`} 
       />
+       
+        <div className="click-prompt">
+          <span>Click Me</span>
+        </div>
+    
     </div>
   );
 };

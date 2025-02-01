@@ -1,21 +1,21 @@
 import React from 'react';
 import './Music.css';
-import albumCover1 from '../images/Hotelcalifornia.jpg'; // Hotel California by The Eagles
-import albumCover2 from '../images/ac-dc.jpg'; // Back in Black by AC/DC
-import albumCover3 from '../images/guns-n-roses.webp'; // Appetite for Destruction by Guns N' Roses
+import albumCover1 from '../images/Tum_Hi_Ho_cover.jpeg'; // Hotel California by The Eagles
+import albumCover2 from '../images/kabira.jpg'; // Back in Black by AC/DC
+import albumCover3 from '../images/Tum ko aaye.jpg'; // Appetite for Destruction by Guns N' Roses
 
-const favoriteGenres = ["Rock", "Classic Rock", "Hard Rock", "Blues", "Alternative"];
+const favoriteGenres = ["Bollywood", "Indie", "Classical", "Rock", "Folk"];
 const favoriteAlbums = [
-  { title: "Hotel California", artist: "The Eagles", imgSrc: albumCover1 },
-  { title: "Back in Black", artist: "AC/DC", imgSrc: albumCover2 },
-  { title: "Appetite for Destruction", artist: "Guns N' Roses", imgSrc: albumCover3 },
+  { title: "Tum Hi Ho", artist: "Arijit Singh", imgSrc: albumCover1 },
+  { title: "Tum Jo Aaye", artist: "Rahat Fateh Ali Khan, Alka Yagnik", imgSrc: albumCover2 },
+  { title: "Kabira", artist: "Arijit Singh, Harshdeep Kaur", imgSrc: albumCover3 },
 ];
 
 const Music: React.FC = () => {
   return (
     <div className="music-page">
       <div className="quote">
-        <p>“Rock and Roll isn’t a genre, it’s a way of life.” 🎸</p>
+        <p>“Music is the universal language of mankind.” 🎶</p>
       </div>
 
       <div className="genre-section">
