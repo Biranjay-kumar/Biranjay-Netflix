@@ -1,7 +1,7 @@
 import React from 'react';
-import './ContactMe.css';
+import { FaCoffee, FaEnvelope, FaGithub, FaLinkedin, FaPhoneAlt } from 'react-icons/fa';
 import profilePic from '../images/Biranjay.jpg';
-import { FaEnvelope, FaPhoneAlt, FaCoffee, FaLinkedin, FaGithub } from 'react-icons/fa';
+import './ContactMe.css';
 
 const ContactMe: React.FC = () => {
   const userData = {

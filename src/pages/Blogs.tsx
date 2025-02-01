@@ -1,6 +1,6 @@
 import React from 'react';
+import { FaLaptopCode } from 'react-icons/fa';
 import './Blogs.css';
-import { FaMedium, FaDev, FaLaptopCode } from 'react-icons/fa';
 
 const blogs = [
   {

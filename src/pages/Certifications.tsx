@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import './Certifications.css';
 import { FaExternalLinkAlt, FaUniversity } from 'react-icons/fa';
-import { SiUdemy, SiCoursera, SiIeee } from 'react-icons/si';
-import { Certification } from '../types';
+import { SiCoursera, SiIeee, SiUdemy } from 'react-icons/si';
 import { getCertifications } from '../queries/getCertifications';
+import { Certification } from '../types';
+import './Certifications.css';
 const iconData: { [key: string]: JSX.Element } = {
   'udemy': <SiUdemy />,
   'coursera': <SiCoursera />,

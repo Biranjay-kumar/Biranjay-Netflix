@@ -1,13 +1,13 @@
 // Reading.tsx
 
 import React from 'react';
-import './Reading.css';
-import atomicHabits from '../images/atomic_habits.jpg';
-import richDadPoorDad from '../images/rich_dad_poor_dad.jpg';
 import alchemist from '../images/alchemist.jpg';
+import atomicHabits from '../images/atomic_habits.jpg';
 import eatThatFrog from '../images/eat_that_frog.jpg';
-import vijayanikiAidhuMetlu from '../images/vijayaniki_aidu_metlu.jpg';
+import richDadPoorDad from '../images/rich_dad_poor_dad.jpg';
 import venneloAdapilla from '../images/vennelo_adapilla.jpeg';
+import vijayanikiAidhuMetlu from '../images/vijayaniki_aidu_metlu.jpg';
+import './Reading.css';
 
 const books = [
   {

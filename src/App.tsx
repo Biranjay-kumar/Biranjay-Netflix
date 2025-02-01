@@ -1,20 +1,18 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import NetflixTitle from './NetflixTitle';
-import ProfilePage from './profilePage/profilePage';
+import { Route, Routes } from 'react-router-dom';
 import Browse from './browse/browse';
-import WorkPermit from './pages/WorkPermit';
-import WorkExperience from './pages/WorkExperience';
+import Layout from './Layout';
+import NetflixTitle from './NetflixTitle';
+import Blogs from './pages/Blogs';
+import ContactMe from './pages/ContactMe';
+import Music from './pages/Music';
+import Projects from './pages/Projects';
 import Recommendations from './pages/Recommendations';
 import Skills from './pages/Skills';
-import Projects from './pages/Projects';
-import ContactMe from './pages/ContactMe';
-import Layout from './Layout';
-import Music from './pages/Music';
-import Reading from './pages/Reading';
-import Blogs from './pages/Blogs';
-import Certifications from './pages/Certifications';
 import UnderConstruction from './pages/UnderConstruction';
+import WorkExperience from './pages/WorkExperience';
+import WorkPermit from './pages/WorkPermit';
+import ProfilePage from './profilePage/profilePage';
 
 const App: React.FC = () => {
   return (

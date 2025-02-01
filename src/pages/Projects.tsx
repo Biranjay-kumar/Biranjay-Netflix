@@ -1,43 +1,43 @@
 import React from "react";
-import "./Projects.css";
-import eduvaultImage from "../images/Eduvalt.jpg";
-import CarrerSearch from "../images/Carrer-search.jpg";
-import microImage from "../images/micro-image.jpg";
-import Hotel from "../images/Hotel.png";
-import LiquidX from "../images/LiquidX.jpg";
-import ChatImage from "../images/Chat.jpg";
-import Ecomm from "../images/Ecomm.jpg";
 import {
-  FaReact,
-  FaNodeJs,
+  FaAngular,
   FaAws,
   FaDatabase,
   FaDocker,
-  FaAngular,
   FaGithub,
   FaGitlab,
   FaGoogle,
   FaJava,
   FaJenkins,
   FaMicrosoft,
+  FaNodeJs,
   FaPython,
+  FaReact,
   FaVuejs,
 } from "react-icons/fa";
-import {
-  SiRubyonrails,
-  SiPostgresql,
-  SiMongodb,
-  SiMaterialdesign,
-  SiHtml5,
-  SiCss3,
-  SiJquery,
-  SiAwsamplify,
-  SiFirebase,
-  SiTerraform,
-  SiArgo,
-} from "react-icons/si";
-import { Project } from "../types";
 import { GrDeploy, GrKubernetes } from "react-icons/gr";
+import {
+  SiArgo,
+  SiAwsamplify,
+  SiCss3,
+  SiFirebase,
+  SiHtml5,
+  SiJquery,
+  SiMaterialdesign,
+  SiMongodb,
+  SiPostgresql,
+  SiRubyonrails,
+  SiTerraform,
+} from "react-icons/si";
+import CarrerSearch from "../images/Carrer-search.jpg";
+import ChatImage from "../images/Chat.jpg";
+import Ecomm from "../images/Ecomm.jpg";
+import eduvaultImage from "../images/Eduvalt.jpg";
+import Hotel from "../images/Hotel.png";
+import LiquidX from "../images/LiquidX.jpg";
+import microImage from "../images/micro-image.jpg";
+import { Project } from "../types";
+import "./Projects.css";
 
 const techIcons: { [key: string]: JSX.Element } = {
   ReactJS: <FaReact />,

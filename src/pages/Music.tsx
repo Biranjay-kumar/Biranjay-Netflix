@@ -1,8 +1,8 @@
 import React from 'react';
-import './Music.css';
-import albumCover1 from '../images/Tum_Hi_Ho_cover.jpeg'; // Hotel California by The Eagles
 import albumCover2 from '../images/kabira.jpg'; // Back in Black by AC/DC
 import albumCover3 from '../images/Tum ko aaye.jpg'; // Appetite for Destruction by Guns N' Roses
+import albumCover1 from '../images/Tum_Hi_Ho_cover.jpeg'; // Hotel California by The Eagles
+import './Music.css';
 
 const favoriteGenres = ["Bollywood", "Indie", "Classical", "Rock", "Folk"];
 const favoriteAlbums = [
