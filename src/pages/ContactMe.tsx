@@ -11,7 +11,7 @@ const ContactMe: React.FC = () => {
     companyUniversity: "IIIT Ranchi",
     linkedinLink:"https://www.linkedin.com/in/biranjay-kumar-gupta-74941323b/",
     gitHubLink:"https://github.com/Biranjay-Kumar",
-    email: "biranjaykumargupta@example.com",
+    email: "biranjaykumargupta@gmail.com",
     phoneNumber: "+91 8789082373",
   };
 
